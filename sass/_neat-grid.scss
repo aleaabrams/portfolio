@@ -1,0 +1,283 @@
+@import "typography";
+
+$desktop: new-breakpoint(min-width 1025px);
+$about-desksmall: new-breakpoint(min-width 768px) and (max-width 1111px);
+$desksmall: new-breakpoint(min-width 768px) and (max-width 1024px);
+$tablet: new-breakpoint(min-width 480px) and (max-width 767px);
+$phone-land: new-breakpoint(min-width 321px) and (max-width 480px);
+$phone-port: new-breakpoint(max-width 320px);
+
+html, body{
+   text-align: center;
+}
+
+#portfolio{
+   @include span-columns(12);
+   .web, .print{
+      @include span-columns(12 of 12);
+      figure{
+         @include media($desktop) {
+            @include span-columns(6.13 of 12);
+            margin:0;
+            padding:0;
+            // margin-left: .1em;
+            h4{
+               font-size: 3em;
+            }
+            .caption-bottom{
+               opacity: 0;
+            }
+         }
+         @include media($desksmall) {
+            @include span-columns(6.12 of 12);
+            margin:0;
+            padding:0;
+            h4{
+               font-size: 2em;
+            }
+            .caption{
+               a{
+                  display: none;
+               }
+            }
+            .caption-bottom{
+               opacity: 1;
+            }
+            // padding-left: 2.4em;
+            // padding-bottom: 2.4em;
+         }
+         @include media($tablet) {
+            @include span-columns(12 of 12);
+            padding:0;
+            margin:0;
+         }
+         @include media($phone-land) {
+            @include span-columns(11.2 of 12);
+            padding: none;
+            margin:none;
+         }
+         @include media($phone-port) {
+            @include span-columns(12 of 12);
+            padding: 0;
+            margin:0;
+         }
+      }
+   }
+   h1{
+      @include span-columns(12 of 12);
+   }
+}
+
+#about {
+   @include span-columns(12);
+   @include media($desktop) {
+      h1{
+         margin-top: 2em;
+      }
+      img{
+         @include span-columns(2 of 12);
+         margin-left: 16em;
+         margin-bottom: 3em;
+         padding: 1em;
+      }
+      h2, p{
+         @include span-columns(7 of 12);
+         padding-left: 9em;
+         padding-right: 7em;
+         text-align: left;
+      }
+      h2{
+         padding-left: 6em;
+      }
+   }
+   @include media($about-desksmall) {
+      h1{
+         margin-top: 2em;
+      }
+      img{
+         @include span-columns(2 of 12);
+         margin-left: 7em;
+         margin-bottom: 3em;
+         padding: 1em;
+      }
+      h2, p{
+         @include span-columns(7 of 12);
+         padding-left: 3em;
+         padding-right: 3em;
+         text-align: left;
+      }
+      h2{
+         padding-left: 2em;
+      }
+   }
+   @include media($tablet) {
+      h1{
+         @include span-columns(12 of 12);
+         margin-top: 1em;
+      }
+      img{
+         @include span-columns(1 of 12);
+         width: 6em;
+         margin-left: 1em;
+         padding-left: -4em;
+      }
+      h2, p{
+         @include span-columns(9 of 12);
+         text-align: left;
+         padding-left: none;
+         padding-right: none;
+         margin-left: none;
+         padding-bottom: 1em;
+      }
+   }
+   @include media($phone) {
+      h1{
+         @include span-columns(12 of 12);
+         margin-top: 1em;
+      }
+      img{
+         @include span-columns(12 of 12);
+         padding-left: 9em;
+         padding-right: 9em;
+         // width: 8em;
+         // margin-left: 1em;
+         // padding-left: -4em;
+      }
+      h2, p{
+         @include span-columns(12 of 12);
+         text-align: left;
+         padding-left: none;
+         padding-right: none;
+         margin-left: none;
+      }
+      p{
+         margin-bottom: 1em;
+      }
+   }
+}
+
+
+
+
+
+
+
+
+
+#skills{
+   @include span-columns(12);
+   .about-strategy{
+      @include media($desktop) {
+         @include span-columns(4 of 12);
+         .icon-flow-children{
+            font-size: 4em;
+         }
+      }
+      @include media($desksmall) {
+         @include span-columns(4 of 12);
+         .icon-flow-children{
+            font-size: 3em;
+         }
+      }
+      @include media($tablet) {
+         @include span-columns(12 of 12);
+         .icon-flow-children{
+            font-size: 4em;
+         }
+          p{
+            @include span-columns(6 of 12);
+         }
+         ul{
+            @include span-columns(6 of 12);
+         }
+      }
+      @include media($phone-land) {
+         @include span-columns(12 of 12);
+      }
+      @include media($phone-port) {
+         @include span-columns(12 of 12);
+      }
+   }
+   .about-design{
+      @include media($desktop) {
+         @include span-columns(4 of 12);
+         .icon-brush{
+            font-size: 4em;
+         }
+      }
+      @include media($desksmall) {
+         @include span-columns(4 of 12);
+         .icon-brush{
+            font-size: 3em;
+         }
+      }
+      @include media($tablet) {
+         @include span-columns(12 of 12);
+         .icon-brush{
+            font-size: 4em;
+         }
+          p{
+            @include span-columns(6 of 12);
+         }
+         ul{
+            @include span-columns(6 of 12);
+         }
+      }
+      @include media($phone-land) {
+         @include span-columns(12 of 12);
+      }
+      @include media($phone-port) {
+         @include span-columns(12 of 12);
+      }
+   }
+   .about-dev{
+      @include media($desktop) {
+         @include span-columns(4 of 12);
+         .icon-code2{
+            font-size: 4em;
+         }
+      }
+      @include media($desksmall) {
+         @include span-columns(4 of 12);
+         .icon-code2{
+            font-size: 3em;
+         }
+      }
+      @include media($tablet) {
+         @include span-columns(12 of 12);
+         .icon-code2{
+            font-size: 4em;
+         }
+         p{
+            @include span-columns(6 of 12);
+         }
+         ul{
+            @include span-columns(6 of 12);
+         }
+      }
+      @include media($phone-land) {
+         @include span-columns(12 of 12);
+      }
+      @include media($phone-port) {
+         @include span-columns(12 of 12);
+      }
+   }
+}
+
+#contact .contact-links{
+   @include media($desktop) {
+      font-size: 4em;
+   }
+   @include media($desksmall) {
+      font-size: 4em;
+   }
+   @include media ($tablet) {
+      font-size: 4em;
+   }
+   @include media ($phone-land) {
+      font-size: 3em;
+   }
+   @include media ($phone-land) {
+      font-size: 2em;
+   }
+}

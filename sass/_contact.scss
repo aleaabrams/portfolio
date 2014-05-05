@@ -1,0 +1,47 @@
+#contact{
+  color: white;
+  display: inline-block;
+  .contact-links{
+    font-size: 4em;
+    // margin: 1.6em .3em 1em 4em;
+    a{
+      display: inline-block;
+      text-decoration: none;
+      margin: 1.2em .3em 1em .3em;
+    }
+  }
+}
+.icon-dribbble, .icon-github, .icon-linkedin, .icon-behance {
+  color: white;
+}
+
+.icon-dribbble:hover{
+  color: #C73B6F;
+}
+.icon-github:hover{
+  color: #4183c4;
+}
+.icon-linkedin:hover{
+  color: #3399CC;
+}
+.icon-behance:hover{
+  color: #1769FF;
+}
+
+
+
+.parallax-two {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(../images/homeBottom.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

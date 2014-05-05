@@ -1,0 +1,68 @@
+$orange: #f4603d;
+$red: #bf1b13;
+$pink: #f44046;
+$blue: #408AFF;
+$teal: #00f2e3;
+$sky: #00c7f0;
+$dark-blue: #172f46;
+$robin: #49D6F2;
+
+
+//portfolio hover function
+figure{
+   .caption{
+      background:rgba(114, 192, 206, .6);
+   }
+   h4{
+      background-color: rgba(0, 199, 240, 0.85);
+      color: $red;
+   }
+   a{
+      color: $dark-blue;
+      background-color: $pink;
+   }
+   a:hover{
+      background-color: $orange;
+   }
+}
+
+figure:hover{
+  .caption{
+    opacity:1;
+    border: 1em solid $pink;
+  }
+}
+
+
+
+
+
+
+nav{
+   background-color: $sky;
+}
+
+#portfolio{
+   background-color: white;
+}
+
+.web{
+   background-color: $teal;
+}
+
+.print{
+   background-color: $robin;
+}
+
+#about{
+   background-color: $blue;
+}
+
+#skills{
+   background-color: $dark-blue;
+   color: white;
+}
+#contact{
+   background-image: url(../images/homeBottom.jpg);
+   bottom: 0;
+}

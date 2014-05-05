@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Alea Abrams</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="sass/style.css">
+</head>
+<body>
+  <nav class="fixed">
+      <section class="nav-wrap">
+        <a href="index.html#portfolio" id="scroll-portfolio"><span class="icon-pictures"></span><br>portfolio</a>
+        <a href="index.html#about" id="scroll-about"><span class="icon-user"></span><br>about</a>
+        <a href="index.html" id="scroll-home"><img src="images/nameLogo3.png" alt="home"></a>
+        <a href="index.html#skills" id="scroll-skills"><span class="icon-code3"></span><br>skills</a>
+        <a href="#" id="scroll-contact"><span class="icon-phone2"></span><br>contact</a>
+      </section>
+  </nav>
+  <section class="container">
+    <h1>To Do List</h1>
+    <h4>Doubleclick to remove </h4>
+    <h4>Drag to reorder</h4>
+    <section class="list">
+      <form name="form" id="k">
+        <input id="note" type="text" name="display" placeholder="to do">
+        <input id="submit" type="button" value="add">
+      </form>
+      <div id="displayNote"></div>
+    </section>
+  </section>
+  <section class="countdown">
+    <h1>Wow, your birthday is coming up in<h1>
+    <section id="countdown">
+    </section>
+  </section>
+  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="js/sticky.js"></script>
+  <script type="text/javascript" src="js/countdown.js"></script>
+  <script type="text/javascript" src="js/to-do.js"></script>
+</body>
+</html>

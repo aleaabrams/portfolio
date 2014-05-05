@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,200,500,600,700,800,900);
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Voltaire);
+
+
+
+$title-font: "Raleway", sans-serif;
+$subtitle-font: "Oswald", sans-serif;
+$nav-font: "lato";
+$p-font: "lato";
+$subtitle-font-weight: 400;
+$nav-font-weight: 300;
+$nav-links-big: 3em;
+$nav-links-med: 2em;
+$nav-links-small: 1.3em;
+$nav-links-smaller: .7em;
+
+
+h1{
+font: {
+   family: $title-font;
+   size: 4em;
+}
+}
+
+nav a{
+   font: {
+      family: $nav-font;
+      weight: $nav-font-weight;
+   }
+}
+
+h2{
+   font: {
+      family: $subtitle-font;
+   }
+}
+
+p{
+   font-family: $p-font;
+}
+
+li{
+   font-family: $p-font;
+}
+
+h3, h4{
+   font-family: $subtitle-font;
+   font-weight: $subtitle-font-weight;
+
+}
+
+// figure h4{
+//    font-size: 3em;
+// }
+
+figure a{
+   text-decoration: none;
+   font-family: $subtitle-font;
+}

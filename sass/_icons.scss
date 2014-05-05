@@ -1,0 +1,212 @@
+@font-face {
+   font-family: 'icomoon';
+   src:url('../fonts/icomoon.eot?t0ghju');
+   src:url('../fonts/icomoon.eot?#iefixt0ghju') format('embedded-opentype'),
+      url('../fonts/icomoon.woff?t0ghju') format('woff'),
+      url('../fonts/icomoon.ttf?t0ghju') format('truetype'),
+      url('../fonts/icomoon.svg?t0ghju#icomoon') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+   font-family: 'icomoon';
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-image:before {
+   content: "\e621";
+}
+.icon-starburst:before {
+   content: "\e622";
+}
+.icon-starburst-outline:before {
+   content: "\e623";
+}
+.icon-flow-children:before {
+   content: "\e624";
+}
+.icon-globe:before {
+   content: "\e625";
+}
+.icon-puzzle:before {
+   content: "\e627";
+}
+.icon-flow-merge:before {
+   content: "\e629";
+}
+.icon-plane-outline:before {
+   content: "\e62e";
+}
+.icon-magic:before {
+   content: "\f0d0";
+}
+.icon-linkedin:before {
+   content: "\f0e1";
+}
+.icon-cutlery:before {
+   content: "\f0f5";
+}
+.icon-desktop:before {
+   content: "\f108";
+}
+.icon-laptop:before {
+   content: "\f109";
+}
+.icon-tablet:before {
+   content: "\f10a";
+}
+.icon-mobile-phone:before {
+   content: "\f10b";
+}
+.icon-code2:before {
+   content: "\f121";
+}
+.icon-number:before {
+   content: "\e603";
+}
+.icon-number2:before {
+   content: "\e604";
+}
+.icon-number3:before {
+   content: "\e606";
+}
+.icon-number4:before {
+   content: "\e607";
+}
+.icon-number5:before {
+   content: "\e60b";
+}
+.icon-number6:before {
+   content: "\e60c";
+}
+.icon-number7:before {
+   content: "\e60d";
+}
+.icon-number8:before {
+   content: "\e60e";
+}
+.icon-number9:before {
+   content: "\e60f";
+}
+.icon-number10:before {
+   content: "\e610";
+}
+.icon-quote:before {
+   content: "\e611";
+}
+.icon-quote2:before {
+   content: "\e612";
+}
+.icon-calendar:before {
+   content: "\e613";
+}
+.icon-phone:before {
+   content: "\e614";
+}
+.icon-tablet2:before {
+   content: "\e615";
+}
+.icon-monitor:before {
+   content: "\e616";
+}
+.icon-film:before {
+   content: "\e617";
+}
+.icon-coffee2:before {
+   content: "\e62f";
+}
+.icon-checkmark:before {
+   content: "\e600";
+}
+.icon-cancel2:before {
+   content: "\e602";
+}
+.icon-plus:before {
+   content: "\e608";
+}
+.icon-minus:before {
+   content: "\e601";
+}
+.icon-pictures:before {
+   content: "\e618";
+}
+.icon-phone2:before {
+   content: "\e619";
+}
+.icon-graduate:before {
+   content: "\e61a";
+}
+.icon-oven:before {
+   content: "\e630";
+}
+.icon-mouse:before {
+   content: "\e631";
+}
+.icon-medal:before {
+   content: "\e632";
+}
+.icon-lamp:before {
+   content: "\e61b";
+}
+.icon-tools:before {
+   content: "\e633";
+}
+.icon-paint:before {
+   content: "\e634";
+}
+.icon-brush:before {
+   content: "\e626";
+}
+.icon-presentation:before {
+   content: "\e635";
+}
+.icon-mail:before {
+   content: "\e61e";
+}
+.icon-code3:before {
+   content: "\e636";
+}
+.icon-paint-format:before {
+   content: "\e605";
+}
+.icon-user:before {
+   content: "\e609";
+}
+.icon-earth:before {
+   content: "\e637";
+}
+.icon-vimeo:before {
+   content: "\e61d";
+}
+.icon-dribbble:before {
+   content: "\e60a";
+}
+.icon-github:before {
+   content: "\e61c";
+}
+.icon-linkedin2:before {
+   content: "\e61f";
+}
+.icon-behance:before {
+   content: "\e620";
+}
+
+
+// $icons: (icon-image '/e621') (icon-starburst '/e622') (icon-starburst-out '/e623') (icon-flow-children '/e624') (icon-globe '/e625') (icon-puzzle '/e627') (icon-merge '/e629') (icon-plane-outline '/e62e') (icon-magic '/f0d0') (icon-linkedin '/f0e1') (icon-cutlery '/f0f5') (icon-desktop '/f108') (icon-laptop '/f109') (icon-tablet '/f10a') (icon-number '/e603') (icon-number2 '/e604') (icon-number3 '/e606') (icon-number4 '/e607') (icon-number5 '/e60b') (icon-number6 '/e60c') (icon-number7 '/e60d') (icon-number8 '/e60e') (icon-number9 '/e60f') (icon-number10 '/e610') (icon-quote '/e611') (icon-quote2 '/e612') (icon-calendar '/e613') (icon-phone '/e614') (icon-tablet2 '/e615') (icon-monitor '/e616') (icon-film '/e617') (icon-coffee2 '/e62f') (icon-checkmark '/e600') (icon-cancel2 '/e602') (icon-plus '/e608') (icon-minus '/e601') (icon-pictures '/e618') (icon-phone2 '/e619') (icon-graduate '/e61a') (icon-oven '/e630') (icon-mouse '/e631') (icon-medal '/e632') (icon-lamp '/e61b') (icon-tools '/e633') (icon-paint '/e634') (icon-brush '/e626') (icon-presentation '/e635') (icon-mail '/e61e') (icon-code3 '/e636') (icon-paint-format '/e605') (icon-user '/e609') (icon-earth '/e637') (icon-vimeo '/e61d') (icon-dribbble '/e60a') (icon-github '/e61c') (icon-linkedin2 '/e61f') (icon-behance '/e620');
+
+// @each $icon in $icons {
+//   #{nth($icon, 1)}:after {
+//     content: nth($icon, 1);
+//   }
+// }
+
